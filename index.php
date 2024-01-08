@@ -1,6 +1,6 @@
 <?php
 
-// Form data retrieve ======================================================================-->
+// Form data retrieval ======================================================================-->
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
     $firstName = isset($_POST['firstName']) ? htmlspecialchars($_POST['firstName']) : '';
